@@ -348,29 +348,30 @@ button {
 
   /* outline: 1px solid #000000; */
 }
+.command-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+.command-link .icon {
+  fill: currentColor;
+}
 
 .social + .social {
   margin-left: 10px;
 }
-.command-link .icon {
-  width: 20px;
-  height: 20px;
-  /* outline: 1px solid red; */
-}
 
 .command-link {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: #afb1b8;
-  /* outline: 1px solid red; */
 }
+
 .command-link:hover {
   background-color: var(--main-color-blue);
-  fill: #fff;
+  color: #fff;
 }
 
 /* #endregion */
@@ -437,13 +438,6 @@ button {
   padding: 0;
 }
 
-.footer-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .footer-enjoy {
   margin-left: 70px;
   padding-top: 12px;
@@ -498,12 +492,9 @@ button {
   border-radius: 50%;
   background-color: rgba(var(--white-color-rgb), 0.1);
   color: rgb(var(--white-color-rgb));
-  /* opacity: 0.1; */
 }
 
 .social-link .icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
   opacity: 1;
 }
