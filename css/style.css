@@ -196,7 +196,8 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 15%);
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   cursor: pointer;
 }
 /* #endregion */
@@ -369,7 +370,8 @@ button {
   display: flex;
 }
 
-.command-link:hover {
+.command-link:hover,
+.command-link:focus {
   background-color: var(--main-color-blue);
   color: #fff;
 }
