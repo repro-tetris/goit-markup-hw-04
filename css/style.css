@@ -356,9 +356,7 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: #afb1b8;
-}
-.command-link .icon {
+  color: var(--customer-color);
   fill: currentColor;
 }
 
@@ -366,14 +364,10 @@ button {
   margin-left: 10px;
 }
 
-.command-link {
-  display: flex;
-}
-
 .command-link:hover,
 .command-link:focus {
   background-color: var(--main-color-blue);
-  color: #fff;
+  color: rgb(var(--white-color-rgb));
 }
 
 /* #endregion */
@@ -494,11 +488,7 @@ button {
   border-radius: 50%;
   background-color: rgba(var(--white-color-rgb), 0.1);
   color: rgb(var(--white-color-rgb));
-}
-
-.social-link .icon {
   fill: currentColor;
-  opacity: 1;
 }
 
 .social-icon + .social-icon {
