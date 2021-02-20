@@ -404,15 +404,15 @@ button {
   display: flex;
   height: inherit;
   justify-content: center;
-  border: 1px solid var(--customer-color);
+  border: 1px solid currentColor;
   border-radius: 4px;
-  fill: var(--customer-color);
+  color: var(--customer-color);
+  fill: currentColor;
 }
 
 .client-link:hover,
 .client-link:focus {
-  fill: var(--main-color-blue);
-  border-color: var(--main-color-blue);
+  color: var(--main-color-blue);
 }
 
 /* #endregion */
@@ -466,19 +466,17 @@ button {
 .connect-title {
   display: block;
   font-weight: 700;
-  /* font-size: 16px; */
   line-height: 1.14;
   color: rgb(var(--white-color-rgb));
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
 .social-list {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  /* outline: 1px solid red; */
 }
+
 .social-link {
   display: flex;
   justify-content: center;
