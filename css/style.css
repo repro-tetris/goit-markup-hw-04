@@ -422,6 +422,7 @@ button {
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo.white {
@@ -433,7 +434,7 @@ button {
 
 .footer-enjoy {
   margin-left: 70px;
-  padding-top: 12px;
+  /* padding-top: 12px; */
 }
 
 .address-list {
